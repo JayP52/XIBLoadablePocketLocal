@@ -1,0 +1,11 @@
+framework module XIBLoadablePocket_iOS {
+  umbrella header "XIBLoadablePocket_iOS.h"
+
+  export *
+  module * { export * }
+}
+
+module XIBLoadablePocket_iOS.Swift {
+    header "XIBLoadablePocket_iOS-Swift.h"
+    requires objc
+}
